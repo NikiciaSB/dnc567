@@ -20,20 +20,21 @@ namespace DNC567.Controllers
         }
         public IActionResult Index()
         {
+            ViewBag.Id = "banana";
             return View();
         }
 
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-
+            ViewBag.Id = "apple";
             return View();
         }
 
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
-
+            ViewBag.Id = "apple";
             return View();
         }
 
