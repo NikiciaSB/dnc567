@@ -11722,23 +11722,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nicole\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/judithfolse/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nicole\\Desktop\\DNC567 Project\\DNC567\\DNC567.csproj",
+      "projectUniqueName": "/Users/judithfolse/Desktop/DNC567/dnc567/DNC567.csproj",
       "projectName": "DNC567",
-      "projectPath": "C:\\Users\\Nicole\\Desktop\\DNC567 Project\\DNC567\\DNC567.csproj",
-      "packagesPath": "C:\\Users\\Nicole\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nicole\\Desktop\\DNC567 Project\\DNC567\\obj\\",
+      "projectPath": "/Users/judithfolse/Desktop/DNC567/dnc567/DNC567.csproj",
+      "packagesPath": "/Users/judithfolse/.nuget/packages/",
+      "outputPath": "/Users/judithfolse/Desktop/DNC567/dnc567/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nicole\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/judithfolse/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
