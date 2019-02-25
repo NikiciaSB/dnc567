@@ -62,3 +62,8 @@ C:/Users/Nicole/Desktop/DNC567 Project/DNC567/obj/Debug/netcoreapp2.1/DNC567.csp
 /Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/DNC567.dll
 /Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/DNC567.pdb
 /Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/DNC567.csproj.CopyComplete
+/Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/InstructorReg.g.cshtml.cs
+/Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/LoginPartial.g.cshtml.cs
+/Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/LoginReg.g.cshtml.cs
+/Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/RegPartial.g.cshtml.cs
+/Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/StudentReg.g.cshtml.cs

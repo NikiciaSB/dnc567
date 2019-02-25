@@ -1,0 +1,38 @@
+@using DNC567.Models
+@model Student
+
+<form asp-action="Register" asp-controller="Home">
+    <div class="form-group">
+        <span asp-validation-for="FirstName"></span><br>
+        <label asp-for="FirstName"></label><br>
+        <input class="form-control" asp-for="FirstName">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="LastName"></span><br>
+        <label asp-for="LastName"></label><br>
+        <input class="form-control" asp-for="LastName">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Email"></span><br>
+        <label asp-for="Email"></label><br>
+        <input class="form-control" asp-for="Email">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="Password"></span><br>
+        <label asp-for="Password"></label><br>
+        <input class="form-control" asp-for="Password">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="ConfirmPassword"></span><br>
+        <label asp-for="ConfirmPassword"></label><br>
+        <input class="form-control" asp-for="ConfirmPassword">
+    </div>
+    <div class="form-group">
+        <span asp-validation-for="NickName"></span><br>
+        <label asp-for="NickName"></label><br>
+        <input class="form-control" asp-for="NickName">
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Register Student">
+    </div>
+</form>
