@@ -29,15 +29,17 @@ namespace DNC567.Controllers
             ViewBag.Id = "apple";
             return View();
         }
-        public IActionResult RegisterStudent(User newUser)
+        public IActionResult RegisterStudent(Student newStudent)
         {
+            ViewBag.Student = newStudent;
             ViewBag.Id = "apple";
             return View("EditStudent");
         }
-        public IActionResult RegisterInstructor(User newUser)
+        public IActionResult RegisterInstructor(Instructor newInstructor)
         {
+            ViewBag.Instructor = newInstructor;
             ViewBag.Id = "apple";
-            return View("EditStudent");
+            return View("EditInstructor");
         }
 
         public IActionResult About()

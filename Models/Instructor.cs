@@ -10,5 +10,7 @@ namespace DNC567.Models
         [MinLength(3)]
         [Display (Name="Instructor Name")]
         public string InstructorName {get;set;}
+        public int Age {get;set;}
+        public string Location {get;set;}
     }
 }
