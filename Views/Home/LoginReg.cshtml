@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<br><br><br><br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6">
+            <div id="student" style="display: block;">
+                <partial name="StudentReg"></partial>
+            </div>
+            <div id="instructor" style="display: none;">
+                <partial name="InstructorReg"></partial>
+            </div>
+            <input type="button" class="btn btn-warning" id="user-button" onclick="changeUser()" value="Register as an Instructor"></button>
+        </div>
+        <div class="col-sm-6">
+            <h3>Login</h3>
+            <partial name="LoginPartial"></partial>
+        </div>
+    </div>
+</div>

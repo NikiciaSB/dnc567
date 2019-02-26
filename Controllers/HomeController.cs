@@ -23,6 +23,23 @@ namespace DNC567.Controllers
             ViewBag.Id = "banana";
             return View();
         }
+        [HttpGet("loginreg")]
+        public IActionResult LoginReg()
+        {
+            ViewBag.Id = "apple";
+            return View();
+        }
+        public IActionResult RegisterStudent(User newUser)
+        {
+            ViewBag.Id = "apple";
+            newUser.Instructor = false;
+            return View();
+        }
+        public IActionResult RegisterInstructor(User newUser)
+        {
+            ViewBag.Id = "apple";
+            return View();
+        }
 
         public IActionResult About()
         {
