@@ -1,0 +1,82 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@using DNC567.Models
+@model Student
+<br><br><br><br><br>
+
+<div class="row">
+    <div class="col-sm-6">
+        <form>
+            <h2>Personal Info</h2>
+            <div class="col-sm-3">
+                <img src="#" alt="Student Name">
+            </div>
+            <div class="col-sm-6">
+                <div class="form-group">
+                    <label for="FirstName">First Name</label>
+                    <input class="form-control" type="text" name="FirstName" value="First Name">
+                </div>
+                <div class="form-group">
+                    <label for="LastName">Last Name</label>
+                    <input class="form-control" type="text" name="LastName" value="Last Name">
+                </div>
+                <div class="form-group">
+                    <label for="Age">Age</label>
+                    <input class="form-control" type="number" min="0" max="100" value="37">
+                </div>
+                <div class="form-group">
+                    <label for="NickName">Nick Name</label>
+                    <input class="form-control" type="text" name="NickName" value="Nick Name">
+                </div>
+                <div class="form-group">
+                    <label for="Location">Location</label>
+                    <input class="form-control" type="text" name="Location" value="Location">
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary" type="submit" value="Update Info">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-6">
+        <h2>Training</h2>
+        <div class="col-sm-6">
+            <h4>Add Dance Style:</h4>
+            <form>
+                <div class="form-group">
+                    <label for="StyleName">Style</label>
+                    <input class="form-control" type="text" placeholder="Dance Style">
+                </div>
+                <div class="form-group">
+                    <label for="SkillLevel">Skill Level</label>
+                    <select class="form-control" name="SkillLevel">
+                        <option>Beginner</option>
+                        <option>Intermediate</option>
+                        <option>Advanced</option>
+                        <option>Professional</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary" type="submit" value="Add">
+                </div>    
+            </form>
+        </div>
+        <div class="col-sm-6">
+            <h4>Add Awards:</h4>
+            <div class="form-group">
+                <label for="AwardTitle">Award Title</label>
+                <input class="form-control" type="text" name="AwardTitle" placeholder="Title">
+            </div>
+            <div class="form-group">
+                <label for="AwardYear">Year</label>
+                <input class="form-control" type="month" >
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Add">
+            </div>
+
+        </div>
+    </div>
+        
+</div>
