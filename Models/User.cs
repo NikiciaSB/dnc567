@@ -36,7 +36,6 @@ namespace DNC567.Models {
         [Display (Name = "Confirm Password")]
         [Compare ("Password")]
         public string ConfirmPassword { get; set; }
-        public bool Instructor {get;set;}
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;
 
