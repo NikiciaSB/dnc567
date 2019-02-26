@@ -67,3 +67,5 @@ C:/Users/Nicole/Desktop/DNC567 Project/DNC567/obj/Debug/netcoreapp2.1/DNC567.csp
 /Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/LoginReg.g.cshtml.cs
 /Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/RegPartial.g.cshtml.cs
 /Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/StudentReg.g.cshtml.cs
+/Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/Instructor.g.cshtml.cs
+/Users/judithfolse/Desktop/DNC567/dnc567/obj/Debug/netcoreapp2.1/Razor/Views/Home/Student.g.cshtml.cs
