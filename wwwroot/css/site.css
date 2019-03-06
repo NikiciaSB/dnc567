@@ -165,7 +165,7 @@ body {font-family: Verdana, sans-serif;}
   position: fixed;
   top: 30%;
   left: 40%;
-  height: 20vh;
+  height: 200px;
   background: rgba(0, 0, 0, 0.774);
   padding: 1%;
   color: white;
@@ -175,7 +175,7 @@ body {font-family: Verdana, sans-serif;}
   position: fixed;
   top: 15%;
   left: 17%;
-  height: 80vh;
+  height: 800px;
   background: rgba(0, 0, 0, 0.774);
   padding: 1%;
   color: white;
