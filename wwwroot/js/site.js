@@ -17,3 +17,22 @@ function changeUser(id){
         document.getElementById('instructor').style.display = 'none';
     }
 }
+
+function styleDelete(){
+    document.getElementById('styleModal').style.display = "block";
+}
+function certiDelete(){
+    document.getElementById('certiModal').style.display = "block";
+}
+function awardDelete(){
+    document.getElementById('awardModal').style.display = "block";
+}
+function videoModal(){
+    document.getElementById('videoModal').style.display = "block";
+}
+function closeModal(){
+    document.getElementById('styleModal').style.display = 'none';
+    document.getElementById('awardModal').style.display = 'none';
+    document.getElementById('certiModal').style.display = 'none';
+    document.getElementById('videoModal').style.display = 'none';
+}

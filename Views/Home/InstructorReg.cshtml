@@ -2,7 +2,7 @@
 @model Instructor
 
 <form asp-action="RegisterInstructor" asp-controller="Home">
-    <h3>Register as an Instructor</h3>
+    <h3 class="certi">Register as an Instructor</h3>
     <div class="form-group">
         <span asp-validation-for="FirstName"></span><br>
         <label asp-for="FirstName"></label><br>
@@ -34,6 +34,6 @@
         <input class="form-control" asp-for="InstructorName">
     </div>
     <div class="form-group">
-        <input type="submit" value="Register Instructor">
+        <input class="btn btn-primary" type="submit" value="Register Instructor">
     </div>
 </form>
