@@ -150,7 +150,7 @@ body {font-family: Verdana, sans-serif;}
 .days li .active {
   padding: 5px;
   background: #f79240;
-  color: white !important
+  color: white !important;
 }
 .calendar {
   padding: 40px 15px;
@@ -224,6 +224,7 @@ body {font-family: Verdana, sans-serif;}
 }
 
 
+
 .about{
     background-color: #ee3331;
     padding:5px;
@@ -244,13 +245,14 @@ body {font-family: Verdana, sans-serif;}
 }
 #videoModal{
   position: fixed;
-  top: 15%;
+  top: 0;
   left: 17%;
-  height: 800px;
+  height: 600px;
   background: rgba(0, 0, 0, 0.774);
   padding: 1%;
   color: white;
   font-weight: bold;
+  overflow-y: scroll;
 }
 .style{
     background-color: #f79240;
