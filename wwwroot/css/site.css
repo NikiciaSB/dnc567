@@ -150,7 +150,7 @@ body {font-family: Verdana, sans-serif;}
 .days li .active {
   padding: 5px;
   background: #f79240;
-  color: white !important
+  color: white !important;
 }
 .calendar {
   padding: 40px 15px;
@@ -222,6 +222,7 @@ body {font-family: Verdana, sans-serif;}
   background: #f79240;
   color: white !important
 }
+
 
 
 .about{
