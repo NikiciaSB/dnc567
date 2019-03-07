@@ -62,6 +62,13 @@ namespace DNC567.Controllers
             ViewBag.Id = "apple";
             return View();
         }
+
+        [HttpGet("event")]
+        public IActionResult Event()
+        {
+            ViewBag.Id = "apple";
+            return View();
+        }
         public IActionResult Login()
         {   
             ViewBag.Id = "apple";
