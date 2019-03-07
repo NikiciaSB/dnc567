@@ -10,6 +10,8 @@ namespace DNC567.Models
         [Required]
         [MinLength(3)]
         public string NickName {get;set;}
+        public int Age {get;set;}
+        public string Location {get;set;}
 
     }
 }
